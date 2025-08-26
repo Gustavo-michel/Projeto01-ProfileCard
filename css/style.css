@@ -1,0 +1,98 @@
+/*Reset Css básico*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+:root{
+    --cor-fundo: #f0f2f5;
+    --cor-branco: #ffffff;
+    --cor-texto-primario: #1c1e21;
+    --cor-texto-secundario: #606770;
+    --cor-borda: #dcdfe3;
+    --cor-acento: #007bff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+
+    line-height: 1;
+    font-family: sans-serif;
+}
+
+ol,ul{
+    list-style: none;
+}
+
+img,video{
+    max-width:100%;
+    height: auto;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: var(--cor-fundo);
+    color:#333;
+
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+
+}
+
+.personal-card{
+    width: 450px;
+    background-color: var(--cor-fundo);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+
+}
+
+.personal-image{
+    width: 100%;
+    display: block;
+}
+
+.personal-content{
+    padding: 25px
+}
+
+.personal-name{
+    font-size: 1.85rem;
+    margin-bottom: 15px;
+    margin-top: 0;
+    text-align: center;
+    color: var(--cor-texto-primario) ;
+}
+
+.personal-title{
+    font-size: 1rem;
+    line-height: 1.6;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: var(--cor-texto-secundario);
+    margin-top: 20px;
+    margin-bottom:10px;
+}
+
+.card_social{
+    display: flex; 
+    justify-content: center;
+    padding-bottom: 10px;
+    gap: 16px; 
+}
+.card_social img:hover{
+   transform: scale(1.1);
+   transition: all .3s;
+}
