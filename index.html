@@ -1,38 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Card interativo</title>
-    <link rel="shortcut icon" href="img/icone_salada.png" type="image/x-icon">
-    <meta name="keywords" content="Salada,grega,projeto">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="X-UA X-UA-Compatible" content="IE=7">
-    <meta name="description" content="Projeto Salada Grega é um exemplo de site estático">
-    <meta name="author" content ="Gustavo michel">
-    <meta name="robots" content="index,follow">
-    <link rel="shortcut icon" href="img\id-card.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <meta name="keywords" content="Card, profissional, contatos" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="X-UA X-UA-Compatible" content="IE=7" />
+    <meta
+      name="description"
+      content="Site simulando um cartão profissional de contato"
+    />
+    <meta name="author" content="Gustavo michel" />
+    <meta name="robots" content="index,follow" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="img\id-card.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-
-<body>
-     <div class="personal-card">
-        <img class="personal-image" src="img/foto.jpg"
-            alt="Foto de perfil de Gustavo Michel, homem branco, cabelo preto e olhos castanhos">
-        <div class="personal-content">
-            <h2 class="personal-name">Gustavo Michel</h2>
-            <p class="personal-title">
-                Proano | Cientista de dados 
-            </p>
-        </div>
-        <div class="card_social">
+  <body>
+    <div class="profile-card">
+      <div class="image">
+        <img src="img/foto.jpg" alt="" class="profile-img" />
+      </div>
+      <div class="text-data">
+        <span class="name">Gustavo Michel</span>
+        <span class="job">Proano | Cientista de dados </span>
+      </div>
+      <div class="media-buttons">
           <a href="https://www.linkedin.com/in/gustavo-michel-araujo/" aria-label="Linkedin Gustavo Michel" target="_blank"><img src="img\linkedin.png" alt="imagem de icone do Linkedin"></a>
           <a href="https://github.com/Gustavo-michel" aria-label="Github Gustavo Michel" target="_blank"><img src="img\github.png" alt="imagem de icone do github"></a>
+      </div>
+      <div class="buttons">
+        <button class="button">Message</button>
+      </div>
+      <div class="analytics">
+        <div class="data">
+          <i class="bx bx-heart"></i>
+          <span class="number">60k</span>
         </div>
+        <div class="data">
+          <i class="bx bx-message-rounded"></i>
+          <span class="number">20k</span>
+        </div>
+        <div class="data">
+          <i class="bx bx-share"></i>
+          <span class="number">12k</span>
+        </div>
+      </div>
     </div>
-    
-</body>
-
-
+  </body>
 </html>
